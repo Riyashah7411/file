@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><b><h1>Registeration Form</h1></b></header>
+<br><br>
+    <main>
+        <form action="/action.php">
+            <label for="Name">Enter your User Name:</label>
+            <input type="text" placeholder="Name" id="Name"> 
+            <br><br>
+            <label for="Email">Enter your Email:</label>
+            <input type="text" placeholder="Email" id="Email">
+            <br><br>
+            <label for="Phone No.">Enter your Phone No.:</label>
+            <input type="tel" placeholder="Phone No." pattern:[0-9]{3}-[0-9]{3}-[0-9]{4}>
+            <br><br>
+            <h3>Subjects Selection</h3><h4>(Class XI)</h4>
+            <h6> Note:Select any five subjects but English is compulsory</h6>
+            <label for="math">
+                <input type="checkbox" id="math" value="math" name="subject" >Maths
+            </label>
+            <br>
+            <label for="english">
+                <input type="checkbox" id="english" value="english" name="subject" >English
+            </label>
+            <br>
+            <label for="physics">
+                <input type="checkbox" id="physics" value="physics" name="subject" >physics
+            </label>
+            <br>
+            <label for="chemistry">
+                <input type="checkbox" id="chemistry" value="chemistry" name="subject" >chemistry
+            </label>
+            <br>
+            <label for="biology">
+                <input type="checkbox" id="biology" value="biology" name="subject" >Biology
+            </label>
+            <br>
+            <label for="computer science">
+                <input type="checkbox" id="computer science" value="computer science" name="subject" >Computer Science
+                </label>
+                <br><br>
+                <br> 
+            <a href="topic.html">Syllabus</a>
+            <br><br>
+            <textarea  name=" query" id="101" placeholder="Any query" rows="6"></textarea>
+            
+            <br><br>
+            <input type="submit" value="submit">
+
+        </form>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
