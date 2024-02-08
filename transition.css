@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transistion</title>
+    <style>
+        .box{
+        height: 200px;
+        width:  200px;
+        background-color: aqua;
+        border:1px solid black;
+        transition: width 2s,height 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        box-shadow: 2px 3px 4px goldenrod;
+    }
+    .box:hover{
+        width: 500px;
+        height: 700px;
+        background-color: pink;
+        transform: skew(45deg);
+    
+    }
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="box"> <h1>Welcome</h1> </div>
+    </div>
+
+</body>
+</html>
